@@ -121,3 +121,98 @@ padding-bottom:5rem;
      
     }
 }
+
+@media screen and (max-width:1600px){
+    html{
+        font-size: 13px;
+    }
+
+
+    .contact-content-con {
+
+flex-direction: column-reverse;
+gap: 3rem;
+padding: 0;
+
+.right-contact{
+    margin: 0;
+}
+.left-contact {
+
+    .contact-info{
+        .contact-item{
+
+ flex-direction: column;
+        align-items: flex-start;
+        margin-top: 1.5rem;
+        border-bottom: 1px solid var(--color-secondary);
+
+        }
+    }
+}
+
+    } 
+       
+    
+}
+
+@media screen and (max-width:400px){
+    .section{
+        padding: 10rem 2rem;
+    }
+    .sec1{
+        
+        .header-content{
+
+            .right-header {
+
+                .name{
+                    font-size: 2rem;
+                    line-height: 1.25;
+                }
+            }
+        }
+        } 
+
+        .about{
+            
+            padding: 10rem 0;
+            .about-container{
+                .left-about{
+                    height: auto;
+                    h4{
+                        font-size: 1.25rem;
+                        text-align: center;
+                    }
+                    p{
+                        line-height: 1;
+                        height: auto;
+                        color: var();
+                    }
+                }
+            }
+            .right-about{
+                grid-template-columns: 1fr;
+                padding: 2rem;
+            }
+
+            
+                .about-stats{
+                   .progress-bars{
+                    grid-template-columns: 1fr !important;
+                    padding: 2rem;
+                   }
+                }
+                .timeline{
+                    grid-template-columns: 1fr;
+                    padding: 2rem;
+                }
+            
+        }
+        .portfolio{
+            .portfolios{
+                grid-template-columns: 1fr;
+            }
+        }
+    } 
+ 

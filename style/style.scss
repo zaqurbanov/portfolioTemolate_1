@@ -271,6 +271,7 @@ transition: all 0.4s ease-in-out;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         padding: 3.5rem 0;
+        margin-top: 6rem;
         
         .right-about{
             display: grid;
@@ -304,7 +305,7 @@ transition: all 0.4s ease-in-out;
                         position: relative;
                         text-transform: uppercase;
                         font-size: 1.2rem;
-                        color: var(--color-grey1);
+                        color: var(--color-white);
                         letter-spacing: 2px;
                         &::before{
                             content: "";
@@ -329,7 +330,7 @@ transition: all 0.4s ease-in-out;
             p{
                 line-height: 2rem;
                 padding: 1rem;
-                color: var(--color-grey1);
+                color: var(--color-white);
 
             }
             h4{
@@ -556,6 +557,7 @@ transition: all 0.4s ease-in-out;
     .port-text{
         padding: 2rem;
         text-align: center;
+        margin-top: 6rem;
     }
     .portfolios{
         display: grid;
@@ -595,7 +597,7 @@ transition: all 0.4s ease-in-out;
 
                 h3{
                     font-size: 1.5rem;
-                    color: var(--color-white);
+                    color: var(--color-primary);
                     margin-bottom: 1.5rem;
 
                 }
@@ -651,7 +653,7 @@ transition: all 0.4s ease-in-out;
             display: grid;
             grid-template-columns: repeat(3,1fr);
             grid-gap: 2rem;
-            margin-top: 3rem;
+            margin-top: 6rem;
             .blog{
                 position: relative;
                 background-color: var(--color-grey5);
@@ -705,6 +707,7 @@ transition: all 0.4s ease-in-out;
     .contact-content-con{
         display: flex;
         padding-top: 3.5rem;
+        margin-top: 6rem;
         .left-contact{
             flex: 2;
 

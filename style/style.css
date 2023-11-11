@@ -253,6 +253,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 3.5rem 0;
+  margin-top: 6rem;
 }
 .about-container .right-about {
   display: grid;
@@ -286,7 +287,7 @@ section {
   position: relative;
   text-transform: uppercase;
   font-size: 1.2rem;
-  color: var(--color-grey1);
+  color: var(--color-white);
   letter-spacing: 2px;
 }
 .about-container .right-about .about-item .abt-text .small-text::before {
@@ -304,7 +305,7 @@ section {
 .about-container .left-about p {
   line-height: 2rem;
   padding: 1rem;
-  color: var(--color-grey1);
+  color: var(--color-white);
 }
 .about-container .left-about h4 {
   font-size: 2rem;
@@ -511,6 +512,7 @@ section {
 .port-text {
   padding: 2rem;
   text-align: center;
+  margin-top: 6rem;
 }
 
 .portfolios {
@@ -551,7 +553,7 @@ section {
 }
 .portfolios .portfolio-item .hover-item h3 {
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: var(--color-primary);
   margin-bottom: 1.5rem;
 }
 .portfolios .portfolio-item .hover-item .icons {
@@ -595,7 +597,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 .blogs-content .blogs .blog {
   position: relative;
@@ -646,6 +648,7 @@ section {
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
+  margin-top: 6rem;
 }
 .contact-content-con .left-contact {
   flex: 2;
@@ -831,5 +834,63 @@ section {
   }
   .contact-content-con {
     flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 13px;
+  }
+  .contact-content-con {
+    flex-direction: column-reverse;
+    gap: 3rem;
+    padding: 0;
+  }
+  .contact-content-con .right-contact {
+    margin: 0;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    border-bottom: 1px solid var(--color-secondary);
+  }
+}
+@media screen and (max-width: 400px) {
+  .section {
+    padding: 10rem 2rem;
+  }
+  .sec1 .header-content .right-header .name {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+  .about {
+    padding: 10rem 0;
+  }
+  .about .about-container .left-about {
+    height: auto;
+  }
+  .about .about-container .left-about h4 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .about .about-container .left-about p {
+    line-height: 1;
+    height: auto;
+    color: var();
+  }
+  .about .right-about {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+  .about .about-stats .progress-bars {
+    grid-template-columns: 1fr !important;
+    padding: 2rem;
+  }
+  .about .timeline {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+  .portfolio .portfolios {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=style.css.map */
